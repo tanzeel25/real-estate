@@ -1,0 +1,309 @@
+.d-inline-block {
+    width: 100%;
+    display: inline-block!important;
+    height: 79px;
+}
+
+.collapse{
+    justify-content: center;
+}
+
+.phone-icon{
+    display: flex;
+    padding: 4px 25px;
+    background-color: #EB0000;
+    font-size: 24px;
+    color: white;
+    border-radius: 28px;
+}
+
+.phone-icon h6{
+    margin-left: 4px;
+}
+
+.phone-icon a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+}
+
+nav li{
+    padding: 10px 15px;
+}
+
+nav ul li a{
+    font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: red;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: red;
+}
+
+.bg-image {
+    background-image: url('imgs/modern-business-area-twilight-bangkok-thailand.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 536px; /* Adjust the height as needed */
+    color: #fff; /* Set the text color to be visible on the background image */
+}
+
+.kings-pics {
+    border-radius: 13px;
+    width: 100%;
+    height: 29rem;
+}
+
+.elementer-king-col h2{
+    font-weight: 700;
+}
+
+.project-section-row{
+    display: flex;
+    justify-content: center;
+}
+
+.project-section{
+    text-align: center;
+}
+
+
+.project-section-row1{
+    background-color: white;
+    padding: 32px;
+}
+
+.row-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-section-row1 .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+    width: 30%;
+    padding: 13px;
+}
+
+
+.project-section h4{
+    font-size: 2rem;
+}
+
+.services{
+    text-align: center;
+}
+
+.footer-section form{
+    padding: 31px;
+    background-color: aliceblue;
+    border-radius: 8px;
+}
+
+.footer-section a{
+    color: black
+}
+
+.footer-icon{
+    padding-right: 8px;
+}
+
+.footer-section .rounded-circle{
+    padding: 3px 6px;
+}
+
+/*About Us*/
+
+.Obaid-pics{
+    width: 100%;
+}
+
+.about-section{
+    padding-bottom: 49px;
+}
+
+.Obaid1-pics{
+    width: 100%;
+    border-radius: 21px;
+}
+
+.about-section h2{
+    font-size: 4rem;
+}
+
+
+/*Contract*/
+
+.Contact-section h2 {
+    font-size: 4rem;
+}
+
+.contact-1 span{
+    border: 1px solid red;
+    padding: 6px 9px;
+    border-radius: 37px;
+}
+
+.contact-1 i{
+    color: #EB0000;
+}
+
+/*event*/
+
+.event-section h1{
+    font-size: 4.4rem;
+}
+
+.gallery-section h1 {
+    font-size: 4.4rem;
+}
+
+.blog-section h1 {
+    font-size: 4.4rem;
+}
+
+/*login*/
+
+.limiter{
+    color: white;
+    background: linear-gradient(rgb(247 247 247 / 50%), rgb(251 246 246 / 50%)), url(imgs/grand.webp);
+
+    padding: 45px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.login-container{
+    text-align: center;
+    width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 55px 37px 55px;
+    background: #9152f8;
+    background: -webkit-linear-gradient(top, #7579ff, #b224ef);
+}
+
+.input100 {
+    font-size: 18px;
+    line-height: 1.2;
+    color: #686868;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    border-radius: 23px;
+    border: 1px solid white;
+    margin-bottom: 31px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    height: 45px;
+    padding: 0 5px 0 38px;
+}
+
+.container-login100-form-btn button{
+    padding: 6px 48px;
+    border-radius: 22px;
+    border: none;
+}
+
+.limiter .text-center{
+    padding-top: 5rem;
+}
+
+.txt1{
+    color: white;
+    text-decoration: none;
+}
+
+.login1-form-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+
+.form-icon{
+    font-size: 66px;
+}
+
+/*Admin-limiter*/
+
+.Admin-limiter{
+    background: linear-gradient(rgb(247 247 247 / 50%), rgb(251 246 246 / 50%)), url(imgs/gallery/askari.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.forgot-class{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.Admin-login{
+    padding: 4rem 1rem;
+}
+
+.Admin-limiter i{
+    margin-right: 6px;
+}
+
+.user-control{
+    display: flex;
+    align-items: flex-end;
+}
+
+.user-label{
+    margin-right: 6px;
+}
+
+.card-section{
+    box-shadow: 0 5px 10px 0 rgb(0 0 0 / 48%);
+    background: #fbf7f79c;
+}
+
+.Admin-login-button{
+    margin-left: 14px;
+}
+
+.Admin-login-button h6{
+    color: black;
+}
+
+/*event*/
+
+.event_image img{
+    width: 100%;
+}
+
+.event_title{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.event_title a{
+    text-decoration: none;
+    color: black;
+}
+
+.event_body{
+    background-color: #fdf0f0f5;
+}
